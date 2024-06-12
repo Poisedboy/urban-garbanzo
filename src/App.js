@@ -11,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>Counter</h1>
         <p>{counter}</p>
         <button onClick={() => setCounter(prevState => prevState + 1)}>Increment</button>
         <button onClick={() => setCounter(prevState => prevState - 1)}>Decrement</button>
