@@ -13,8 +13,10 @@ function App() {
         </p>
         <h1>Counter</h1>
         <p>{counter}</p>
-        <button onClick={() => setCounter(prevState => prevState + 1)}>Increment</button>
-        <button onClick={() => setCounter(prevState => prevState - 1)}>Decrement</button>
+        <div style={{display: 'flex', gap: 10}}>
+          <button onClick={() => setCounter(prevState => prevState + 1)}>Increment</button>
+          <button onClick={() => setCounter(prevState => prevState - 1)}>Decrement</button>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
